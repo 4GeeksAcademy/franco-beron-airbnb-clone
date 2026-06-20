@@ -75,3 +75,29 @@ body {
 .rdp-chevron {
   fill: #374151;
 }
+
+@media (max-width: 767px) {
+  .rdp {
+    --rdp-day-width: 36px;
+    --rdp-day-height: 36px;
+    --rdp-day_button-width: 36px;
+    --rdp-day_button-height: 36px;
+    --rdp-nav_button-width: 32px;
+    --rdp-nav_button-height: 32px;
+  }
+
+  .rdp-months {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .rdp-month {
+    width: 100%;
+  }
+
+  .rdp-weekday,
+  .rdp-day {
+    font-size: 0.78rem;
+  }
+}

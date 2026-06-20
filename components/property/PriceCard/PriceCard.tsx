@@ -5,6 +5,7 @@ import { DayPicker, type DateRange, type Matcher } from "react-day-picker";
 
 import { propertyAvailability } from "@/data/propertyAvailability.mock";
 import { useSearch } from "@/hooks";
+import type { GuestCount } from "@/types";
 import { formatDate } from "@/utils";
 import { formatPrice } from "@/utils";
 
@@ -23,6 +24,8 @@ export function PriceCard({
 }: PriceCardProps) {
   const { criteria, setCriteria } = useSearch();
   const [policy, setPolicy] = useState<"flexible" | "strict">("flexible");
+  const [isDatepickerOpen, setIsDatepickerOpen] = useState(false);
+  const [isGuestsOpen, setIsGuestsOpen] = useState(false);
 
   const range: DateRange | undefined = useMemo(
     () => ({
@@ -60,6 +63,26 @@ export function PriceCard({
       checkIn: nextRange?.from ? toIsoDate(nextRange.from) : null,
       checkOut: nextRange?.to ? toIsoDate(nextRange.to) : null,
     });
+
+    if (nextRange?.from && nextRange?.to) {
+      setIsDatepickerOpen(false);
+    }
+  };
+
+  const handleGuestChange = (key: keyof GuestCount, delta: number) => {
+    const nextValue = Math.max(0, criteria.guests[key] + delta);
+
+    if (key === "adults" && nextValue === 0) {
+      return;
+    }
+
+    setCriteria({
+      ...criteria,
+      guests: {
+        ...criteria.guests,
+        [key]: nextValue,
+      },
+    });
   };
 
   return (
@@ -80,23 +103,84 @@ export function PriceCard({
 
       <div className="mt-5 grid gap-3">
         <div className="grid grid-cols-2 gap-3">
-          <Field label="Llegada" value={checkInLabel} />
-          <Field label="Salida" value={checkOutLabel} />
+          <Field
+            label="Desde"
+            value={checkInLabel}
+            isInteractive
+            onClick={() => {
+              setIsDatepickerOpen((open) => !open);
+              setIsGuestsOpen(false);
+            }}
+          />
+          <Field
+            label="Hasta"
+            value={checkOutLabel}
+            isInteractive
+            onClick={() => {
+              setIsDatepickerOpen((open) => !open);
+              setIsGuestsOpen(false);
+            }}
+          />
         </div>
-        <Field label="Huéspedes" value={`${guests} huéspedes`} />
-      </div>
-
-      <div className="mt-4 overflow-hidden rounded-[24px] border border-black/8 p-3">
-        <DayPicker
-          mode="range"
-          numberOfMonths={1}
-          selected={range}
-          onSelect={handleRangeChange}
-          disabled={disabledDates}
-          excludeDisabled
-          weekStartsOn={1}
+        <Field
+          label="Huéspedes"
+          value={`${guests} huéspedes`}
+          isInteractive
+          onClick={() => {
+            setIsGuestsOpen((open) => !open);
+            setIsDatepickerOpen(false);
+          }}
         />
       </div>
+
+      {isDatepickerOpen ? (
+        <div className="mt-4 overflow-x-auto rounded-[24px] border border-black/8 p-3">
+          <DayPicker
+            mode="range"
+            numberOfMonths={1}
+            selected={range}
+            onSelect={handleRangeChange}
+            disabled={disabledDates}
+            excludeDisabled
+            weekStartsOn={1}
+          />
+        </div>
+      ) : null}
+
+      {isGuestsOpen ? (
+        <div className="mt-4 rounded-[24px] border border-black/8 bg-white p-4">
+          <div className="space-y-3">
+            <GuestRow
+              label="Adultos"
+              helper="Desde 13 años"
+              value={criteria.guests.adults}
+              onDecrement={() => handleGuestChange("adults", -1)}
+              onIncrement={() => handleGuestChange("adults", 1)}
+            />
+            <GuestRow
+              label="Niños"
+              helper="De 2 a 12 años"
+              value={criteria.guests.children}
+              onDecrement={() => handleGuestChange("children", -1)}
+              onIncrement={() => handleGuestChange("children", 1)}
+            />
+            <GuestRow
+              label="Infantes"
+              helper="Menores de 2 años"
+              value={criteria.guests.infants}
+              onDecrement={() => handleGuestChange("infants", -1)}
+              onIncrement={() => handleGuestChange("infants", 1)}
+            />
+            <GuestRow
+              label="Mascotas"
+              helper="¿Viajas con mascota?"
+              value={criteria.guests.pets}
+              onDecrement={() => handleGuestChange("pets", -1)}
+              onIncrement={() => handleGuestChange("pets", 1)}
+            />
+          </div>
+        </div>
+      ) : null}
 
       <div className="mt-5 space-y-3 rounded-[24px] bg-neutral-50 p-4 text-sm text-neutral-700">
         <label className="flex items-start gap-3">
@@ -185,6 +269,15 @@ function parseDate(value: string | null) {
     return undefined;
   }
 
+  const dateOnlyMatch = /^(\d{4})-(\d{2})-(\d{2})$/.exec(value);
+
+  if (dateOnlyMatch) {
+    const year = Number(dateOnlyMatch[1]);
+    const month = Number(dateOnlyMatch[2]) - 1;
+    const day = Number(dateOnlyMatch[3]);
+    return new Date(year, month, day);
+  }
+
   const parsed = new Date(value);
   return Number.isNaN(parsed.getTime()) ? undefined : parsed;
 }
@@ -199,16 +292,25 @@ function toIsoDate(value: Date) {
 interface FieldProps {
   label: string;
   value: string;
+  isInteractive?: boolean;
+  onClick?: () => void;
 }
 
-function Field({ label, value }: FieldProps) {
+function Field({ label, value, isInteractive = false, onClick }: FieldProps) {
   return (
-    <div className="rounded-[22px] border border-black/8 px-4 py-3">
+    <button
+      type="button"
+      onClick={onClick}
+      className={[
+        "w-full rounded-[22px] border border-black/8 px-4 py-3 text-left",
+        isInteractive ? "transition hover:bg-neutral-50" : "cursor-default",
+      ].join(" ")}
+    >
       <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-neutral-500">
         {label}
       </p>
       <p className="mt-1 text-sm font-medium text-neutral-900">{value}</p>
-    </div>
+    </button>
   );
 }
 
@@ -227,6 +329,50 @@ function Row({ label, value, bold = false }: RowProps) {
       <span className={bold ? "font-semibold text-neutral-950" : undefined}>
         {value}
       </span>
+    </div>
+  );
+}
+
+interface GuestRowProps {
+  label: string;
+  helper: string;
+  value: number;
+  onIncrement: () => void;
+  onDecrement: () => void;
+}
+
+function GuestRow({
+  label,
+  helper,
+  value,
+  onIncrement,
+  onDecrement,
+}: GuestRowProps) {
+  return (
+    <div className="flex items-center justify-between gap-3">
+      <div>
+        <p className="text-sm font-semibold text-neutral-900">{label}</p>
+        <p className="text-xs text-neutral-500">{helper}</p>
+      </div>
+      <div className="flex items-center gap-2">
+        <button
+          type="button"
+          onClick={onDecrement}
+          className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-black/15 text-neutral-700"
+        >
+          −
+        </button>
+        <span className="w-5 text-center text-sm font-medium text-neutral-900">
+          {value}
+        </span>
+        <button
+          type="button"
+          onClick={onIncrement}
+          className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-black/15 text-neutral-700"
+        >
+          +
+        </button>
+      </div>
     </div>
   );
 }

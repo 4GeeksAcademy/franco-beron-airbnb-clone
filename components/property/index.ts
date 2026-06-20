@@ -7,3 +7,4 @@ export * from "./PropertyAmenities";
 export * from "./PropertyDetails";
 export * from "./PropertyList";
 export * from "./PropertyReviews";
+export * from "./AvailabilityCalendar/AvailabilityCalendar";

@@ -8,7 +8,10 @@ const navigationItems = [
 
 export function Header() {
   return (
-    <header className="sticky top-0 z-40 border-b border-black/5 bg-white/90 backdrop-blur-xl">
+    <header
+      data-global-header="true"
+      className="sticky top-0 z-40 border-b border-black/5 bg-white/90 backdrop-blur-xl transition-all duration-200"
+    >
       <div className="mx-auto flex w-full max-w-[1400px] items-center justify-between gap-4 px-4 py-4 md:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-3">
           <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-rose-500 text-lg font-semibold text-white shadow-[0_12px_30px_rgba(244,63,94,0.25)]">
