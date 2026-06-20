@@ -7,7 +7,7 @@ export default async function Home() {
 
   return (
     <div className="flex flex-1 flex-col">
-      <section className="relative overflow-hidden bg-[radial-gradient(circle_at_top_left,_rgba(251,113,133,0.18),_transparent_32%),linear-gradient(180deg,#fff8f6_0%,#fcfcfb_44%,#fafaf9_100%)]">
+      <section className="relative overflow-visible bg-[radial-gradient(circle_at_top_left,_rgba(251,113,133,0.18),_transparent_32%),linear-gradient(180deg,#fff8f6_0%,#fcfcfb_44%,#fafaf9_100%)]">
         <div className="mx-auto flex w-full max-w-[1400px] flex-col gap-10 px-4 pb-16 pt-8 md:px-6 md:pb-20 md:pt-10 lg:px-8">
           <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
             <div className="max-w-3xl">

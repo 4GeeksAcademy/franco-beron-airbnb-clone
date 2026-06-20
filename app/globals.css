@@ -27,3 +27,51 @@ body {
   color: var(--foreground);
   font-family: var(--font-geist-sans), sans-serif;
 }
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  font-family: var(--font-geist-sans), sans-serif;
+}
+
+.leaflet-popup-content {
+  margin: 8px 10px;
+}
+
+.marker-cluster-small,
+.marker-cluster-medium,
+.marker-cluster-large {
+  background: rgba(225, 29, 72, 0.22);
+}
+
+.marker-cluster-small div,
+.marker-cluster-medium div,
+.marker-cluster-large div {
+  background: rgba(225, 29, 72, 0.82);
+  color: #fff;
+  font-weight: 700;
+}
+
+.map-price-marker {
+  background: transparent;
+  border: 0;
+}
+
+.rdp {
+  --rdp-accent-color: #f43f5e;
+  --rdp-range_middle-background-color: rgba(244, 63, 94, 0.14);
+  --rdp-range_middle-color: #9f1239;
+  margin: 0;
+}
+
+.rdp-root {
+  font-family: var(--font-geist-sans), sans-serif;
+}
+
+.rdp-day_button {
+  border-radius: 999px;
+}
+
+.rdp-chevron {
+  fill: #374151;
+}

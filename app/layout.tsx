@@ -4,6 +4,10 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Footer, Header } from "@/components/layout";
 import { FavoritesProvider, SearchProvider } from "@/context";
 
+import "leaflet/dist/leaflet.css";
+import "react-leaflet-cluster/dist/assets/MarkerCluster.css";
+import "react-leaflet-cluster/dist/assets/MarkerCluster.Default.css";
+import "react-day-picker/dist/style.css";
 import "./globals.css";
 
 const geistSans = Geist({

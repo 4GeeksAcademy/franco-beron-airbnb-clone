@@ -67,6 +67,7 @@ export default async function RoomPage({ params }: RoomPageProps) {
 
         <div className="xl:sticky xl:top-28">
           <PriceCard
+            propertyId={property.id}
             pricePerNight={property.pricePerNight}
             originalPrice={property.originalPrice}
             currency={property.currency}

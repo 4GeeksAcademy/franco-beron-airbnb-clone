@@ -6,15 +6,27 @@ import type { Property } from "@/types";
 
 export interface PropertyListProps {
   properties: Property[];
+  selectedPropertyId?: string;
+  onSelectProperty?: (propertyId: string) => void;
 }
 
-export function PropertyList({ properties }: PropertyListProps) {
+export function PropertyList({
+  properties,
+  selectedPropertyId,
+  onSelectProperty,
+}: PropertyListProps) {
   return (
     <div className="grid gap-6 lg:grid-cols-2 xl:grid-cols-3">
       {properties.map((property) => (
         <article
           key={property.id}
-          className="overflow-hidden rounded-[28px] bg-white shadow-[0_20px_60px_rgba(15,23,42,0.08)] transition hover:-translate-y-1 hover:shadow-[0_28px_80px_rgba(15,23,42,0.12)]"
+          onMouseEnter={() => onSelectProperty?.(property.id)}
+          className={[
+            "overflow-hidden rounded-[28px] bg-white shadow-[0_20px_60px_rgba(15,23,42,0.08)] transition hover:-translate-y-1 hover:shadow-[0_28px_80px_rgba(15,23,42,0.12)]",
+            selectedPropertyId === property.id
+              ? "ring-2 ring-rose-400/70"
+              : "ring-1 ring-transparent",
+          ].join(" ")}
         >
           <div className="relative aspect-[1.08] overflow-hidden rounded-[28px]">
             <Image

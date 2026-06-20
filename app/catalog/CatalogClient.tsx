@@ -34,6 +34,9 @@ export function CatalogClient({ initialProperties }: CatalogClientProps) {
   const [activeFilters, setActiveFilters] = useState<string[]>([]);
   const [properties, setProperties] = useState<Property[]>(initialProperties);
   const [isLoading, setIsLoading] = useState(false);
+  const [selectedPropertyId, setSelectedPropertyId] = useState<
+    string | undefined
+  >(initialProperties[0]?.id);
 
   useEffect(() => {
     let cancelled = false;
@@ -69,6 +72,18 @@ export function CatalogClient({ initialProperties }: CatalogClientProps) {
     [activeFilters, properties],
   );
 
+  const effectiveSelectedPropertyId = useMemo(() => {
+    if (filteredProperties.length === 0) {
+      return undefined;
+    }
+
+    return filteredProperties.some(
+      (property) => property.id === selectedPropertyId,
+    )
+      ? selectedPropertyId
+      : filteredProperties[0].id;
+  }, [filteredProperties, selectedPropertyId]);
+
   const heading = criteria.destination?.trim()
     ? `Más de ${filteredProperties.length} alojamientos en ${criteria.destination}`
     : `Más de ${filteredProperties.length} alojamientos disponibles`;
@@ -100,11 +115,19 @@ export function CatalogClient({ initialProperties }: CatalogClientProps) {
             </h1>
           </div>
 
-          <PropertyList properties={filteredProperties} />
+          <PropertyList
+            properties={filteredProperties}
+            selectedPropertyId={effectiveSelectedPropertyId}
+            onSelectProperty={setSelectedPropertyId}
+          />
         </div>
 
         <div className="xl:sticky xl:top-24">
-          <MapView properties={filteredProperties} />
+          <MapView
+            properties={filteredProperties}
+            selectedPropertyId={effectiveSelectedPropertyId}
+            onSelectProperty={setSelectedPropertyId}
+          />
         </div>
       </section>
     </div>
