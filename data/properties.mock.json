@@ -1,0 +1,1980 @@
+[
+    {
+        "id": "ba-palermo-loft",
+        "title": "Loft luminoso con balcón en Palermo Soho",
+        "type": "Departamento",
+        "city": "Buenos Aires",
+        "neighborhood": "Palermo Soho",
+        "country": "Argentina",
+        "guests": 2,
+        "bedrooms": 1,
+        "beds": 1,
+        "bathrooms": 1,
+        "pricePerNight": 5800,
+        "originalPrice": 6500,
+        "currency": "UYU",
+        "rating": 4.9,
+        "reviewsCount": 2,
+        "isSuperhost": true,
+        "isGuestFavorite": true,
+        "images": [
+            {
+                "id": "ba-palermo-loft-1",
+                "url": "https://picsum.photos/seed/ba-palermo-loft-1/1200/900",
+                "alt": "Living del loft en Palermo"
+            },
+            {
+                "id": "ba-palermo-loft-2",
+                "url": "https://picsum.photos/seed/ba-palermo-loft-2/1200/900",
+                "alt": "Dormitorio con luz natural"
+            },
+            {
+                "id": "ba-palermo-loft-3",
+                "url": "https://picsum.photos/seed/ba-palermo-loft-3/1200/900",
+                "alt": "Balcón con mesa pequeña"
+            },
+            {
+                "id": "ba-palermo-loft-4",
+                "url": "https://picsum.photos/seed/ba-palermo-loft-4/1200/900",
+                "alt": "Cocina integrada moderna"
+            }
+        ],
+        "amenities": [
+            {
+                "id": "wifi",
+                "label": "WiFi rápido",
+                "icon": "Wifi"
+            },
+            {
+                "id": "ac",
+                "label": "Aire acondicionado",
+                "icon": "Snowflake"
+            },
+            {
+                "id": "kitchen",
+                "label": "Cocina equipada",
+                "icon": "CookingPot"
+            },
+            {
+                "id": "tv",
+                "label": "TV 50 pulgadas",
+                "icon": "Tv"
+            },
+            {
+                "id": "washer",
+                "label": "Lavarropas",
+                "icon": "Shirt"
+            }
+        ],
+        "description": "Loft contemporáneo en una calle arbolada de Palermo Soho, a pasos de cafés, tiendas y vida nocturna. Ideal para escapadas urbanas y estadías de trabajo.",
+        "host": {
+            "id": "host-lucia-palermo",
+            "name": "Lucía",
+            "avatarUrl": "https://picsum.photos/seed/host-lucia-palermo/200/200",
+            "isSuperhost": true,
+            "yearsOfExperience": 6,
+            "reviewsCount": 112,
+            "rating": 4.95,
+            "responseRate": 99,
+            "responseTime": "Responde en menos de una hora",
+            "bio": "Diseñadora de interiores y anfitriona desde 2019. Me gusta recomendar rincones auténticos del barrio.",
+            "job": "Diseñadora de interiores",
+            "bornDecade": "Década del 90"
+        },
+        "reviews": [
+            {
+                "id": "review-ba-palermo-loft-1",
+                "authorName": "Sofía",
+                "authorLocation": "Montevideo, Uruguay",
+                "rating": 5,
+                "date": "2026-03-14",
+                "comment": "Muy cómodo, impecable y con una ubicación excelente para caminar por Palermo."
+            },
+            {
+                "id": "review-ba-palermo-loft-2",
+                "authorName": "Tomás",
+                "authorLocation": "Rosario, Argentina",
+                "rating": 5,
+                "date": "2026-04-03",
+                "comment": "El balcón y la luz del departamento hacen la diferencia. Volvería sin dudar."
+            }
+        ],
+        "location": {
+            "lat": -34.5885,
+            "lng": -58.4306,
+            "description": "En el corazón de Palermo Soho, cerca de Plaza Serrano y una gran oferta gastronómica."
+        },
+        "cancellationPolicy": "Cancelación gratuita hasta 5 días antes de la llegada.",
+        "houseRules": [
+            "Check-in después de las 15:00",
+            "No se permiten fiestas",
+            "No fumar dentro del alojamiento"
+        ],
+        "safetyInfo": [
+            "Detector de humo",
+            "Botiquín de primeros auxilios",
+            "Cerradura inteligente"
+        ]
+    },
+    {
+        "id": "ba-recoleta-studio",
+        "title": "Studio elegante frente a plazas de Recoleta",
+        "type": "Departamento",
+        "city": "Buenos Aires",
+        "neighborhood": "Recoleta",
+        "country": "Argentina",
+        "guests": 2,
+        "bedrooms": 1,
+        "beds": 1,
+        "bathrooms": 1,
+        "pricePerNight": 6200,
+        "currency": "UYU",
+        "rating": 4.8,
+        "reviewsCount": 2,
+        "isSuperhost": false,
+        "isGuestFavorite": true,
+        "images": [
+            {
+                "id": "ba-recoleta-studio-1",
+                "url": "https://picsum.photos/seed/ba-recoleta-studio-1/1200/900",
+                "alt": "Studio en Recoleta con ventanales"
+            },
+            {
+                "id": "ba-recoleta-studio-2",
+                "url": "https://picsum.photos/seed/ba-recoleta-studio-2/1200/900",
+                "alt": "Cama matrimonial con respaldo de madera"
+            },
+            {
+                "id": "ba-recoleta-studio-3",
+                "url": "https://picsum.photos/seed/ba-recoleta-studio-3/1200/900",
+                "alt": "Escritorio junto a la ventana"
+            },
+            {
+                "id": "ba-recoleta-studio-4",
+                "url": "https://picsum.photos/seed/ba-recoleta-studio-4/1200/900",
+                "alt": "Baño revestido en mármol"
+            }
+        ],
+        "amenities": [
+            {
+                "id": "wifi",
+                "label": "WiFi rápido",
+                "icon": "Wifi"
+            },
+            {
+                "id": "workspace",
+                "label": "Zona de trabajo",
+                "icon": "Laptop"
+            },
+            {
+                "id": "elevator",
+                "label": "Ascensor",
+                "icon": "ArrowUp"
+            },
+            {
+                "id": "heating",
+                "label": "Calefacción",
+                "icon": "Thermometer"
+            },
+            {
+                "id": "coffee",
+                "label": "Cafetera Nespresso",
+                "icon": "Coffee"
+            }
+        ],
+        "description": "Un studio sobrio y silencioso, pensado para parejas o viajeros de negocios que priorizan confort y una ubicación clásica en Recoleta.",
+        "host": {
+            "id": "host-martin-recoleta",
+            "name": "Martín",
+            "avatarUrl": "https://picsum.photos/seed/host-martin-recoleta/200/200",
+            "isSuperhost": false,
+            "yearsOfExperience": 4,
+            "reviewsCount": 58,
+            "rating": 4.83,
+            "responseRate": 97,
+            "responseTime": "Responde en pocas horas",
+            "bio": "Trabajo en hospitalidad y me enfoco en estadías fluidas y bien organizadas.",
+            "job": "Consultor hotelero",
+            "bornDecade": "Década del 80"
+        },
+        "reviews": [
+            {
+                "id": "review-ba-recoleta-studio-1",
+                "authorName": "Paula",
+                "authorLocation": "Colonia, Uruguay",
+                "rating": 5,
+                "date": "2026-02-18",
+                "comment": "Muy silencioso, limpio y cerca de todo lo que queríamos recorrer en Recoleta."
+            },
+            {
+                "id": "review-ba-recoleta-studio-2",
+                "authorName": "Javier",
+                "authorLocation": "Córdoba, Argentina",
+                "rating": 4,
+                "date": "2026-05-07",
+                "comment": "Excelente base para trabajar y salir a caminar. El check-in fue muy simple."
+            }
+        ],
+        "location": {
+            "lat": -34.5872,
+            "lng": -58.3924,
+            "description": "A metros de la Plaza Francia, museos y cafeterías tradicionales del barrio."
+        },
+        "cancellationPolicy": "Reembolso del 50% hasta 7 días antes de la llegada.",
+        "houseRules": [
+            "Check-out antes de las 11:00",
+            "No se admiten mascotas",
+            "Respetar el silencio después de las 22:00"
+        ],
+        "safetyInfo": [
+            "Portero durante el día",
+            "Extintor",
+            "Cámara en entrada del edificio"
+        ]
+    },
+    {
+        "id": "ba-san-telmo-hotel",
+        "title": "Habitación boutique en San Telmo con desayuno",
+        "type": "Hotel",
+        "city": "Buenos Aires",
+        "neighborhood": "San Telmo",
+        "country": "Argentina",
+        "guests": 2,
+        "bedrooms": 1,
+        "beds": 1,
+        "bathrooms": 1,
+        "pricePerNight": 7100,
+        "originalPrice": 8300,
+        "currency": "UYU",
+        "rating": 4.7,
+        "reviewsCount": 2,
+        "isSuperhost": false,
+        "isGuestFavorite": false,
+        "images": [
+            {
+                "id": "ba-san-telmo-hotel-1",
+                "url": "https://picsum.photos/seed/ba-san-telmo-hotel-1/1200/900",
+                "alt": "Patio interno del hotel boutique"
+            },
+            {
+                "id": "ba-san-telmo-hotel-2",
+                "url": "https://picsum.photos/seed/ba-san-telmo-hotel-2/1200/900",
+                "alt": "Habitación con textiles cálidos"
+            },
+            {
+                "id": "ba-san-telmo-hotel-3",
+                "url": "https://picsum.photos/seed/ba-san-telmo-hotel-3/1200/900",
+                "alt": "Desayuno servido en terraza"
+            },
+            {
+                "id": "ba-san-telmo-hotel-4",
+                "url": "https://picsum.photos/seed/ba-san-telmo-hotel-4/1200/900",
+                "alt": "Recepción con detalles patrimoniales"
+            }
+        ],
+        "amenities": [
+            {
+                "id": "wifi",
+                "label": "WiFi",
+                "icon": "Wifi"
+            },
+            {
+                "id": "breakfast",
+                "label": "Desayuno incluido",
+                "icon": "Croissant"
+            },
+            {
+                "id": "frontdesk",
+                "label": "Recepción 24 horas",
+                "icon": "Bell"
+            },
+            {
+                "id": "ac",
+                "label": "Aire acondicionado",
+                "icon": "Snowflake"
+            },
+            {
+                "id": "terrace",
+                "label": "Terraza compartida",
+                "icon": "Sun"
+            }
+        ],
+        "description": "Habitación boutique en una casona reciclada del casco histórico, perfecta para quienes quieren explorar mercados, arte y tango a pie.",
+        "host": {
+            "id": "host-camila-santelmo",
+            "name": "Camila",
+            "avatarUrl": "https://picsum.photos/seed/host-camila-santelmo/200/200",
+            "isSuperhost": false,
+            "yearsOfExperience": 8,
+            "reviewsCount": 146,
+            "rating": 4.76,
+            "responseRate": 98,
+            "responseTime": "Responde en menos de una hora",
+            "bio": "Coordino un pequeño hotel de autor en San Telmo con foco en atención cercana.",
+            "job": "Gerenta hotelera",
+            "bornDecade": "Década del 80"
+        },
+        "reviews": [
+            {
+                "id": "review-ba-san-telmo-hotel-1",
+                "authorName": "Elena",
+                "authorLocation": "Madrid, España",
+                "rating": 5,
+                "date": "2026-01-30",
+                "comment": "El edificio tiene muchísimo encanto y el desayuno fue uno de los mejores del viaje."
+            },
+            {
+                "id": "review-ba-san-telmo-hotel-2",
+                "authorName": "Federico",
+                "authorLocation": "Salto, Uruguay",
+                "rating": 4,
+                "date": "2026-04-20",
+                "comment": "Muy buena atención y excelente punto de partida para recorrer el barrio."
+            }
+        ],
+        "location": {
+            "lat": -34.6181,
+            "lng": -58.3719,
+            "description": "Ubicado a pocas cuadras del Mercado de San Telmo y de varias milongas tradicionales."
+        },
+        "cancellationPolicy": "Cancelación gratuita hasta 48 horas antes de la llegada.",
+        "houseRules": [
+            "Check-in después de las 14:00",
+            "No fumar en habitaciones",
+            "No ingresar con visitantes sin registro"
+        ],
+        "safetyInfo": [
+            "Recepción 24 horas",
+            "Detector de humo",
+            "Salidas de emergencia señalizadas"
+        ]
+    },
+    {
+        "id": "pde-brava-apartment",
+        "title": "Apartamento con vista al mar en Playa Brava",
+        "type": "Departamento",
+        "city": "Punta del Este",
+        "neighborhood": "Playa Brava",
+        "country": "Uruguay",
+        "guests": 4,
+        "bedrooms": 2,
+        "beds": 3,
+        "bathrooms": 2,
+        "pricePerNight": 9800,
+        "originalPrice": 11200,
+        "currency": "UYU",
+        "rating": 4.9,
+        "reviewsCount": 2,
+        "isSuperhost": true,
+        "isGuestFavorite": true,
+        "images": [
+            {
+                "id": "pde-brava-apartment-1",
+                "url": "https://picsum.photos/seed/pde-brava-apartment-1/1200/900",
+                "alt": "Living con vista al mar"
+            },
+            {
+                "id": "pde-brava-apartment-2",
+                "url": "https://picsum.photos/seed/pde-brava-apartment-2/1200/900",
+                "alt": "Dormitorio principal con ventanal"
+            },
+            {
+                "id": "pde-brava-apartment-3",
+                "url": "https://picsum.photos/seed/pde-brava-apartment-3/1200/900",
+                "alt": "Balcón amplio con sillones"
+            },
+            {
+                "id": "pde-brava-apartment-4",
+                "url": "https://picsum.photos/seed/pde-brava-apartment-4/1200/900",
+                "alt": "Piscina del edificio"
+            }
+        ],
+        "amenities": [
+            {
+                "id": "wifi",
+                "label": "WiFi",
+                "icon": "Wifi"
+            },
+            {
+                "id": "parking",
+                "label": "Estacionamiento gratuito",
+                "icon": "Car"
+            },
+            {
+                "id": "pool",
+                "label": "Piscina",
+                "icon": "Waves"
+            },
+            {
+                "id": "beach",
+                "label": "Acceso a playa",
+                "icon": "Umbrella"
+            },
+            {
+                "id": "gym",
+                "label": "Gimnasio",
+                "icon": "Dumbbell"
+            }
+        ],
+        "description": "Apartamento frente al mar con amenities de edificio premium, ideal para familias que buscan playa, confort y buena ubicación.",
+        "host": {
+            "id": "host-valentina-brava",
+            "name": "Valentina",
+            "avatarUrl": "https://picsum.photos/seed/host-valentina-brava/200/200",
+            "isSuperhost": true,
+            "yearsOfExperience": 7,
+            "reviewsCount": 93,
+            "rating": 4.97,
+            "responseRate": 100,
+            "responseTime": "Responde en menos de una hora",
+            "bio": "Vivo entre Montevideo y Punta del Este. Disfruto ayudar a las familias a planificar estadías sin fricciones.",
+            "job": "Productora de eventos",
+            "bornDecade": "Década del 90"
+        },
+        "reviews": [
+            {
+                "id": "review-pde-brava-apartment-1",
+                "authorName": "María José",
+                "authorLocation": "Asunción, Paraguay",
+                "rating": 5,
+                "date": "2026-02-11",
+                "comment": "La vista y la ubicación son increíbles. Todo estaba exactamente como en las fotos."
+            },
+            {
+                "id": "review-pde-brava-apartment-2",
+                "authorName": "Andrés",
+                "authorLocation": "Paysandú, Uruguay",
+                "rating": 5,
+                "date": "2026-03-22",
+                "comment": "Muy cómodo para ir con niños. El edificio tiene muy buenos servicios."
+            }
+        ],
+        "location": {
+            "lat": -34.9528,
+            "lng": -54.9172,
+            "description": "A pocos metros de Playa Brava y con acceso rápido a La Barra y a la Península."
+        },
+        "cancellationPolicy": "Cancelación gratuita hasta 7 días antes de la llegada.",
+        "houseRules": [
+            "No fiestas ni eventos",
+            "Uso obligatorio de pulsera del edificio",
+            "Check-out antes de las 10:00"
+        ],
+        "safetyInfo": [
+            "Portería 24 horas",
+            "Detector de humo",
+            "Cámaras en áreas comunes"
+        ]
+    },
+    {
+        "id": "pde-peninsula-hotel",
+        "title": "Suite en hotel clásico de la Península",
+        "type": "Hotel",
+        "city": "Punta del Este",
+        "neighborhood": "Península",
+        "country": "Uruguay",
+        "guests": 2,
+        "bedrooms": 1,
+        "beds": 1,
+        "bathrooms": 1,
+        "pricePerNight": 8600,
+        "currency": "UYU",
+        "rating": 4.6,
+        "reviewsCount": 2,
+        "isSuperhost": false,
+        "isGuestFavorite": false,
+        "images": [
+            {
+                "id": "pde-peninsula-hotel-1",
+                "url": "https://picsum.photos/seed/pde-peninsula-hotel-1/1200/900",
+                "alt": "Suite con vista lateral al puerto"
+            },
+            {
+                "id": "pde-peninsula-hotel-2",
+                "url": "https://picsum.photos/seed/pde-peninsula-hotel-2/1200/900",
+                "alt": "Lobby del hotel"
+            },
+            {
+                "id": "pde-peninsula-hotel-3",
+                "url": "https://picsum.photos/seed/pde-peninsula-hotel-3/1200/900",
+                "alt": "Terraza con reposeras"
+            },
+            {
+                "id": "pde-peninsula-hotel-4",
+                "url": "https://picsum.photos/seed/pde-peninsula-hotel-4/1200/900",
+                "alt": "Restaurante del hotel"
+            }
+        ],
+        "amenities": [
+            {
+                "id": "wifi",
+                "label": "WiFi",
+                "icon": "Wifi"
+            },
+            {
+                "id": "breakfast",
+                "label": "Desayuno incluido",
+                "icon": "Croissant"
+            },
+            {
+                "id": "pool",
+                "label": "Piscina climatizada",
+                "icon": "Waves"
+            },
+            {
+                "id": "spa",
+                "label": "Spa",
+                "icon": "Sparkles"
+            },
+            {
+                "id": "frontdesk",
+                "label": "Recepción 24 horas",
+                "icon": "Bell"
+            }
+        ],
+        "description": "Suite confortable en un hotel tradicional de la Península, práctica para parejas que quieren moverse a pie entre playas, puerto y restaurantes.",
+        "host": {
+            "id": "host-hotel-peninsula",
+            "name": "Hotel Atlántico",
+            "avatarUrl": "https://picsum.photos/seed/host-hotel-peninsula/200/200",
+            "isSuperhost": false,
+            "yearsOfExperience": 12,
+            "reviewsCount": 301,
+            "rating": 4.72,
+            "responseRate": 96,
+            "responseTime": "Responde en menos de una hora",
+            "bio": "Equipo hotelero con atención permanente y foco en estadías cómodas en la Península.",
+            "job": "Hotel",
+            "bornDecade": "Década del 70"
+        },
+        "reviews": [
+            {
+                "id": "review-pde-peninsula-hotel-1",
+                "authorName": "Cecilia",
+                "authorLocation": "Porto Alegre, Brasil",
+                "rating": 5,
+                "date": "2026-01-12",
+                "comment": "Muy práctico para hacer todo caminando. El desayuno fue abundante."
+            },
+            {
+                "id": "review-pde-peninsula-hotel-2",
+                "authorName": "Nicolás",
+                "authorLocation": "Mercedes, Uruguay",
+                "rating": 4,
+                "date": "2026-05-16",
+                "comment": "Buena relación precio-calidad y excelente atención del personal."
+            }
+        ],
+        "location": {
+            "lat": -34.9635,
+            "lng": -54.9504,
+            "description": "En la Península, cerca del puerto y de varias playas pequeñas y restaurantes."
+        },
+        "cancellationPolicy": "Cancelación gratuita hasta 72 horas antes de la llegada.",
+        "houseRules": [
+            "No se permiten mascotas",
+            "Presentar documento al check-in",
+            "No fumar"
+        ],
+        "safetyInfo": [
+            "Recepción 24 horas",
+            "Salidas de emergencia",
+            "Extintores en cada piso"
+        ]
+    },
+    {
+        "id": "piriapolis-cerro-cabin",
+        "title": "Cabaña entre pinos cerca del Cerro San Antonio",
+        "type": "Cabaña",
+        "city": "Piriápolis",
+        "neighborhood": "San Antonio",
+        "country": "Uruguay",
+        "guests": 4,
+        "bedrooms": 2,
+        "beds": 3,
+        "bathrooms": 1,
+        "pricePerNight": 5400,
+        "currency": "UYU",
+        "rating": 4.8,
+        "reviewsCount": 2,
+        "isSuperhost": true,
+        "isGuestFavorite": true,
+        "images": [
+            {
+                "id": "piriapolis-cerro-cabin-1",
+                "url": "https://picsum.photos/seed/piriapolis-cerro-cabin-1/1200/900",
+                "alt": "Exterior de cabaña entre árboles"
+            },
+            {
+                "id": "piriapolis-cerro-cabin-2",
+                "url": "https://picsum.photos/seed/piriapolis-cerro-cabin-2/1200/900",
+                "alt": "Living con estufa a leña"
+            },
+            {
+                "id": "piriapolis-cerro-cabin-3",
+                "url": "https://picsum.photos/seed/piriapolis-cerro-cabin-3/1200/900",
+                "alt": "Deck con parrillero"
+            },
+            {
+                "id": "piriapolis-cerro-cabin-4",
+                "url": "https://picsum.photos/seed/piriapolis-cerro-cabin-4/1200/900",
+                "alt": "Dormitorio con manta tejida"
+            }
+        ],
+        "amenities": [
+            {
+                "id": "parking",
+                "label": "Estacionamiento gratuito",
+                "icon": "Car"
+            },
+            {
+                "id": "bbq",
+                "label": "Parrillero",
+                "icon": "Flame"
+            },
+            {
+                "id": "fireplace",
+                "label": "Estufa a leña",
+                "icon": "Fireplace"
+            },
+            {
+                "id": "kitchen",
+                "label": "Cocina completa",
+                "icon": "CookingPot"
+            },
+            {
+                "id": "pet",
+                "label": "Se aceptan mascotas",
+                "icon": "PawPrint"
+            }
+        ],
+        "description": "Refugio cálido rodeado de verde, a minutos de la rambla y del cerro. Muy buscado por quienes quieren desconectar sin alejarse demasiado.",
+        "host": {
+            "id": "host-ines-piriapolis",
+            "name": "Inés",
+            "avatarUrl": "https://picsum.photos/seed/host-ines-piriapolis/200/200",
+            "isSuperhost": true,
+            "yearsOfExperience": 5,
+            "reviewsCount": 74,
+            "rating": 4.93,
+            "responseRate": 100,
+            "responseTime": "Responde en menos de una hora",
+            "bio": "Fanática de Piriápolis y de las escapadas cortas. Comparto guías de senderos y playas tranquilas.",
+            "job": "Docente",
+            "bornDecade": "Década del 80"
+        },
+        "reviews": [
+            {
+                "id": "review-piriapolis-cerro-cabin-1",
+                "authorName": "Romina",
+                "authorLocation": "Durazno, Uruguay",
+                "rating": 5,
+                "date": "2026-03-08",
+                "comment": "La cabaña tiene mucho encanto y el entorno es muy tranquilo."
+            },
+            {
+                "id": "review-piriapolis-cerro-cabin-2",
+                "authorName": "Gustavo",
+                "authorLocation": "Buenos Aires, Argentina",
+                "rating": 4,
+                "date": "2026-04-27",
+                "comment": "Ideal para descansar y hacer asado. Muy buena comunicación con la anfitriona."
+            }
+        ],
+        "location": {
+            "lat": -34.8635,
+            "lng": -55.2829,
+            "description": "En una zona alta y arbolada, con acceso rápido al Cerro San Antonio y al centro."
+        },
+        "cancellationPolicy": "Cancelación gratuita hasta 5 días antes de la llegada.",
+        "houseRules": [
+            "No fiestas",
+            "Cuidar el entorno natural",
+            "Check-in autónomo después de las 15:00"
+        ],
+        "safetyInfo": [
+            "Botiquín",
+            "Extintor",
+            "Iluminación exterior"
+        ]
+    },
+    {
+        "id": "piriapolis-rambla-apartment",
+        "title": "Apartamento frente a la rambla de Piriápolis",
+        "type": "Departamento",
+        "city": "Piriápolis",
+        "neighborhood": "Rambla de los Argentinos",
+        "country": "Uruguay",
+        "guests": 3,
+        "bedrooms": 1,
+        "beds": 2,
+        "bathrooms": 1,
+        "pricePerNight": 6100,
+        "originalPrice": 6900,
+        "currency": "UYU",
+        "rating": 4.7,
+        "reviewsCount": 2,
+        "isSuperhost": false,
+        "isGuestFavorite": true,
+        "images": [
+            {
+                "id": "piriapolis-rambla-apartment-1",
+                "url": "https://picsum.photos/seed/piriapolis-rambla-apartment-1/1200/900",
+                "alt": "Vista al mar desde ventanal"
+            },
+            {
+                "id": "piriapolis-rambla-apartment-2",
+                "url": "https://picsum.photos/seed/piriapolis-rambla-apartment-2/1200/900",
+                "alt": "Sala de estar con tonos arena"
+            },
+            {
+                "id": "piriapolis-rambla-apartment-3",
+                "url": "https://picsum.photos/seed/piriapolis-rambla-apartment-3/1200/900",
+                "alt": "Cocina integrada pequeña"
+            },
+            {
+                "id": "piriapolis-rambla-apartment-4",
+                "url": "https://picsum.photos/seed/piriapolis-rambla-apartment-4/1200/900",
+                "alt": "Dormitorio principal"
+            }
+        ],
+        "amenities": [
+            {
+                "id": "wifi",
+                "label": "WiFi",
+                "icon": "Wifi"
+            },
+            {
+                "id": "beach",
+                "label": "Frente a la playa",
+                "icon": "Umbrella"
+            },
+            {
+                "id": "kitchen",
+                "label": "Cocina equipada",
+                "icon": "CookingPot"
+            },
+            {
+                "id": "tv",
+                "label": "TV con streaming",
+                "icon": "Tv"
+            },
+            {
+                "id": "self-checkin",
+                "label": "Llegada autónoma",
+                "icon": "KeyRound"
+            }
+        ],
+        "description": "Apartamento práctico con vista abierta a la rambla. Muy buena opción para un fin de semana largo frente al mar.",
+        "host": {
+            "id": "host-rodrigo-piriapolis",
+            "name": "Rodrigo",
+            "avatarUrl": "https://picsum.photos/seed/host-rodrigo-piriapolis/200/200",
+            "isSuperhost": false,
+            "yearsOfExperience": 3,
+            "reviewsCount": 39,
+            "rating": 4.78,
+            "responseRate": 95,
+            "responseTime": "Responde en pocas horas",
+            "bio": "Recibo viajeros que buscan playa y una estadía sencilla, cómoda y bien ubicada.",
+            "job": "Arquitecto",
+            "bornDecade": "Década del 90"
+        },
+        "reviews": [
+            {
+                "id": "review-piriapolis-rambla-apartment-1",
+                "authorName": "Micaela",
+                "authorLocation": "Florida, Uruguay",
+                "rating": 5,
+                "date": "2026-01-19",
+                "comment": "Despertar viendo el mar fue lo mejor. El apartamento está muy bien resuelto."
+            },
+            {
+                "id": "review-piriapolis-rambla-apartment-2",
+                "authorName": "Hernán",
+                "authorLocation": "Santa Fe, Argentina",
+                "rating": 4,
+                "date": "2026-05-09",
+                "comment": "Ideal para pocos días. Muy buena ubicación frente a la rambla."
+            }
+        ],
+        "location": {
+            "lat": -34.8631,
+            "lng": -55.2725,
+            "description": "Sobre la rambla principal, cerca del Argentino Hotel y del paseo costero."
+        },
+        "cancellationPolicy": "Reembolso del 50% hasta 5 días antes de la llegada.",
+        "houseRules": [
+            "No mascotas",
+            "No fumar",
+            "Respetar normas del edificio"
+        ],
+        "safetyInfo": [
+            "Portero eléctrico",
+            "Detector de humo",
+            "Luces de emergencia"
+        ]
+    },
+    {
+        "id": "montevideo-pocitos-loft",
+        "title": "Loft moderno a dos cuadras de Pocitos",
+        "type": "Departamento",
+        "city": "Montevideo",
+        "neighborhood": "Pocitos",
+        "country": "Uruguay",
+        "guests": 2,
+        "bedrooms": 1,
+        "beds": 1,
+        "bathrooms": 1,
+        "pricePerNight": 5900,
+        "currency": "UYU",
+        "rating": 4.8,
+        "reviewsCount": 2,
+        "isSuperhost": true,
+        "isGuestFavorite": false,
+        "images": [
+            {
+                "id": "montevideo-pocitos-loft-1",
+                "url": "https://picsum.photos/seed/montevideo-pocitos-loft-1/1200/900",
+                "alt": "Loft con decoración minimalista"
+            },
+            {
+                "id": "montevideo-pocitos-loft-2",
+                "url": "https://picsum.photos/seed/montevideo-pocitos-loft-2/1200/900",
+                "alt": "Cocina blanca con barra"
+            },
+            {
+                "id": "montevideo-pocitos-loft-3",
+                "url": "https://picsum.photos/seed/montevideo-pocitos-loft-3/1200/900",
+                "alt": "Dormitorio abierto tipo loft"
+            },
+            {
+                "id": "montevideo-pocitos-loft-4",
+                "url": "https://picsum.photos/seed/montevideo-pocitos-loft-4/1200/900",
+                "alt": "Entrada del edificio"
+            }
+        ],
+        "amenities": [
+            {
+                "id": "wifi",
+                "label": "WiFi rápido",
+                "icon": "Wifi"
+            },
+            {
+                "id": "workspace",
+                "label": "Espacio de trabajo",
+                "icon": "Laptop"
+            },
+            {
+                "id": "ac",
+                "label": "Aire acondicionado",
+                "icon": "Snowflake"
+            },
+            {
+                "id": "kitchen",
+                "label": "Cocina equipada",
+                "icon": "CookingPot"
+            },
+            {
+                "id": "self-checkin",
+                "label": "Llegada autónoma",
+                "icon": "KeyRound"
+            }
+        ],
+        "description": "Loft moderno para quienes quieren playa urbana, cafeterías y una base cómoda para recorrer Montevideo.",
+        "host": {
+            "id": "host-ana-pocitos",
+            "name": "Ana",
+            "avatarUrl": "https://picsum.photos/seed/host-ana-pocitos/200/200",
+            "isSuperhost": true,
+            "yearsOfExperience": 6,
+            "reviewsCount": 81,
+            "rating": 4.9,
+            "responseRate": 99,
+            "responseTime": "Responde en menos de una hora",
+            "bio": "Me gusta recibir viajeros que combinan descanso con trabajo remoto en la ciudad.",
+            "job": "Diseñadora UX",
+            "bornDecade": "Década del 90"
+        },
+        "reviews": [
+            {
+                "id": "review-montevideo-pocitos-loft-1",
+                "authorName": "Laura",
+                "authorLocation": "Maldonado, Uruguay",
+                "rating": 5,
+                "date": "2026-03-01",
+                "comment": "Excelente para una semana de trabajo remoto. Todo impecable."
+            },
+            {
+                "id": "review-montevideo-pocitos-loft-2",
+                "authorName": "Bruno",
+                "authorLocation": "Buenos Aires, Argentina",
+                "rating": 4,
+                "date": "2026-04-12",
+                "comment": "Muy bien ubicado y cómodo. La llegada autónoma funcionó perfecto."
+            }
+        ],
+        "location": {
+            "lat": -34.9107,
+            "lng": -56.1496,
+            "description": "A dos cuadras de la rambla de Pocitos y cerca de cafés, supermercados y transporte."
+        },
+        "cancellationPolicy": "Cancelación gratuita hasta 5 días antes de la llegada.",
+        "houseRules": [
+            "No fiestas",
+            "No fumar",
+            "Check-out antes de las 11:00"
+        ],
+        "safetyInfo": [
+            "Cerradura inteligente",
+            "Detector de humo",
+            "Portero eléctrico"
+        ]
+    },
+    {
+        "id": "montevideo-ciudad-vieja-hotel",
+        "title": "Habitación patrimonial en Ciudad Vieja",
+        "type": "Hotel",
+        "city": "Montevideo",
+        "neighborhood": "Ciudad Vieja",
+        "country": "Uruguay",
+        "guests": 2,
+        "bedrooms": 1,
+        "beds": 1,
+        "bathrooms": 1,
+        "pricePerNight": 5200,
+        "currency": "UYU",
+        "rating": 4.5,
+        "reviewsCount": 2,
+        "isSuperhost": false,
+        "isGuestFavorite": false,
+        "images": [
+            {
+                "id": "montevideo-ciudad-vieja-hotel-1",
+                "url": "https://picsum.photos/seed/montevideo-ciudad-vieja-hotel-1/1200/900",
+                "alt": "Fachada patrimonial del hotel"
+            },
+            {
+                "id": "montevideo-ciudad-vieja-hotel-2",
+                "url": "https://picsum.photos/seed/montevideo-ciudad-vieja-hotel-2/1200/900",
+                "alt": "Habitación con piso de pinotea"
+            },
+            {
+                "id": "montevideo-ciudad-vieja-hotel-3",
+                "url": "https://picsum.photos/seed/montevideo-ciudad-vieja-hotel-3/1200/900",
+                "alt": "Patio interior iluminado"
+            },
+            {
+                "id": "montevideo-ciudad-vieja-hotel-4",
+                "url": "https://picsum.photos/seed/montevideo-ciudad-vieja-hotel-4/1200/900",
+                "alt": "Desayuno continental"
+            }
+        ],
+        "amenities": [
+            {
+                "id": "wifi",
+                "label": "WiFi",
+                "icon": "Wifi"
+            },
+            {
+                "id": "breakfast",
+                "label": "Desayuno incluido",
+                "icon": "Croissant"
+            },
+            {
+                "id": "frontdesk",
+                "label": "Recepción 24 horas",
+                "icon": "Bell"
+            },
+            {
+                "id": "ac",
+                "label": "Aire acondicionado",
+                "icon": "Snowflake"
+            },
+            {
+                "id": "luggage",
+                "label": "Guardaequipaje",
+                "icon": "Briefcase"
+            }
+        ],
+        "description": "Habitación en edificio patrimonial restaurado, práctica para quienes priorizan historia, cultura y caminatas por el casco antiguo.",
+        "host": {
+            "id": "host-hotel-ciudadvieja",
+            "name": "Casa del Puerto",
+            "avatarUrl": "https://picsum.photos/seed/host-hotel-ciudadvieja/200/200",
+            "isSuperhost": false,
+            "yearsOfExperience": 10,
+            "reviewsCount": 219,
+            "rating": 4.61,
+            "responseRate": 94,
+            "responseTime": "Responde en pocas horas",
+            "bio": "Pequeño hotel urbano para descubrir la Ciudad Vieja a pie y con calma.",
+            "job": "Hotel",
+            "bornDecade": "Década del 70"
+        },
+        "reviews": [
+            {
+                "id": "review-montevideo-ciudad-vieja-hotel-1",
+                "authorName": "Gabriela",
+                "authorLocation": "Santiago, Chile",
+                "rating": 5,
+                "date": "2026-02-06",
+                "comment": "Muy lindo edificio y excelente punto para recorrer museos y cafés históricos."
+            },
+            {
+                "id": "review-montevideo-ciudad-vieja-hotel-2",
+                "authorName": "Matías",
+                "authorLocation": "Treinta y Tres, Uruguay",
+                "rating": 4,
+                "date": "2026-05-02",
+                "comment": "Buena opción para una escapada corta en el centro histórico."
+            }
+        ],
+        "location": {
+            "lat": -34.9062,
+            "lng": -56.2033,
+            "description": "Cerca de la Plaza Matriz, el puerto y varios espacios culturales de la Ciudad Vieja."
+        },
+        "cancellationPolicy": "Cancelación gratuita hasta 48 horas antes de la llegada.",
+        "houseRules": [
+            "No fumar",
+            "Documento obligatorio al check-in",
+            "Silencio en pasillos después de las 23:00"
+        ],
+        "safetyInfo": [
+            "Detector de humo",
+            "Recepción 24 horas",
+            "Cámaras en acceso"
+        ]
+    },
+    {
+        "id": "jose-ignacio-beach-house",
+        "title": "Casa serena a pasos de la playa en José Ignacio",
+        "type": "Casa",
+        "city": "José Ignacio",
+        "neighborhood": "Faro",
+        "country": "Uruguay",
+        "guests": 6,
+        "bedrooms": 3,
+        "beds": 4,
+        "bathrooms": 2,
+        "pricePerNight": 14500,
+        "currency": "UYU",
+        "rating": 5,
+        "reviewsCount": 2,
+        "isSuperhost": true,
+        "isGuestFavorite": true,
+        "images": [
+            {
+                "id": "jose-ignacio-beach-house-1",
+                "url": "https://picsum.photos/seed/jose-ignacio-beach-house-1/1200/900",
+                "alt": "Casa de playa con deck de madera"
+            },
+            {
+                "id": "jose-ignacio-beach-house-2",
+                "url": "https://picsum.photos/seed/jose-ignacio-beach-house-2/1200/900",
+                "alt": "Living abierto con vista al jardín"
+            },
+            {
+                "id": "jose-ignacio-beach-house-3",
+                "url": "https://picsum.photos/seed/jose-ignacio-beach-house-3/1200/900",
+                "alt": "Dormitorio principal en tonos claros"
+            },
+            {
+                "id": "jose-ignacio-beach-house-4",
+                "url": "https://picsum.photos/seed/jose-ignacio-beach-house-4/1200/900",
+                "alt": "Parrillero exterior con mesa larga"
+            }
+        ],
+        "amenities": [
+            {
+                "id": "parking",
+                "label": "Estacionamiento gratuito",
+                "icon": "Car"
+            },
+            {
+                "id": "bbq",
+                "label": "Parrillero",
+                "icon": "Flame"
+            },
+            {
+                "id": "wifi",
+                "label": "WiFi",
+                "icon": "Wifi"
+            },
+            {
+                "id": "beach",
+                "label": "A pasos de la playa",
+                "icon": "Umbrella"
+            },
+            {
+                "id": "outdoor-shower",
+                "label": "Ducha exterior",
+                "icon": "ShowerHead"
+            }
+        ],
+        "description": "Casa amplia y silenciosa en José Ignacio, pensada para quienes buscan días de playa, asados y vida lenta junto al mar.",
+        "host": {
+            "id": "host-teresa-joseignacio",
+            "name": "Teresa",
+            "avatarUrl": "https://picsum.photos/seed/host-teresa-joseignacio/200/200",
+            "isSuperhost": true,
+            "yearsOfExperience": 9,
+            "reviewsCount": 64,
+            "rating": 4.99,
+            "responseRate": 100,
+            "responseTime": "Responde en menos de una hora",
+            "bio": "Divido mi tiempo entre José Ignacio y Montevideo. Comparto recomendaciones de playas y restaurantes locales.",
+            "job": "Fotógrafa",
+            "bornDecade": "Década del 80"
+        },
+        "reviews": [
+            {
+                "id": "review-jose-ignacio-beach-house-1",
+                "authorName": "Belén",
+                "authorLocation": "Canelones, Uruguay",
+                "rating": 5,
+                "date": "2026-01-25",
+                "comment": "Hermosa casa, muy tranquila y perfecta para ir en familia."
+            },
+            {
+                "id": "review-jose-ignacio-beach-house-2",
+                "authorName": "Rafael",
+                "authorLocation": "São Paulo, Brasil",
+                "rating": 5,
+                "date": "2026-03-19",
+                "comment": "Excelente experiencia. La ubicación y la casa son espectaculares."
+            }
+        ],
+        "location": {
+            "lat": -34.8338,
+            "lng": -54.6378,
+            "description": "Muy cerca del faro y de las playas principales de José Ignacio."
+        },
+        "cancellationPolicy": "Cancelación gratuita hasta 10 días antes de la llegada.",
+        "houseRules": [
+            "No eventos",
+            "Cuidar el mobiliario exterior",
+            "Check-out antes de las 10:00"
+        ],
+        "safetyInfo": [
+            "Alarma monitoreada",
+            "Botiquín",
+            "Iluminación perimetral"
+        ]
+    },
+    {
+        "id": "colonia-barrio-historico-apartment",
+        "title": "Apartamento con patio en el Barrio Histórico",
+        "type": "Departamento",
+        "city": "Colonia del Sacramento",
+        "neighborhood": "Barrio Histórico",
+        "country": "Uruguay",
+        "guests": 3,
+        "bedrooms": 1,
+        "beds": 2,
+        "bathrooms": 1,
+        "pricePerNight": 5600,
+        "currency": "UYU",
+        "rating": 4.8,
+        "reviewsCount": 2,
+        "isSuperhost": true,
+        "isGuestFavorite": true,
+        "images": [
+            {
+                "id": "colonia-barrio-historico-apartment-1",
+                "url": "https://picsum.photos/seed/colonia-barrio-historico-apartment-1/1200/900",
+                "alt": "Patio de piedra con plantas"
+            },
+            {
+                "id": "colonia-barrio-historico-apartment-2",
+                "url": "https://picsum.photos/seed/colonia-barrio-historico-apartment-2/1200/900",
+                "alt": "Sala con detalles coloniales"
+            },
+            {
+                "id": "colonia-barrio-historico-apartment-3",
+                "url": "https://picsum.photos/seed/colonia-barrio-historico-apartment-3/1200/900",
+                "alt": "Dormitorio con cabecera de madera"
+            },
+            {
+                "id": "colonia-barrio-historico-apartment-4",
+                "url": "https://picsum.photos/seed/colonia-barrio-historico-apartment-4/1200/900",
+                "alt": "Cocina compacta renovada"
+            }
+        ],
+        "amenities": [
+            {
+                "id": "wifi",
+                "label": "WiFi",
+                "icon": "Wifi"
+            },
+            {
+                "id": "patio",
+                "label": "Patio privado",
+                "icon": "Trees"
+            },
+            {
+                "id": "ac",
+                "label": "Aire acondicionado",
+                "icon": "Snowflake"
+            },
+            {
+                "id": "kitchen",
+                "label": "Cocina equipada",
+                "icon": "CookingPot"
+            },
+            {
+                "id": "bike",
+                "label": "Bicicletas disponibles",
+                "icon": "Bike"
+            }
+        ],
+        "description": "Apartamento acogedor dentro del casco histórico, perfecto para recorrer calles empedradas, museos y atardeceres sobre el río.",
+        "host": {
+            "id": "host-mariana-colonia",
+            "name": "Mariana",
+            "avatarUrl": "https://picsum.photos/seed/host-mariana-colonia/200/200",
+            "isSuperhost": true,
+            "yearsOfExperience": 7,
+            "reviewsCount": 88,
+            "rating": 4.94,
+            "responseRate": 99,
+            "responseTime": "Responde en menos de una hora",
+            "bio": "Colonia es mi ciudad y me encanta orientar a quienes vienen por primera vez al barrio histórico.",
+            "job": "Guía turística",
+            "bornDecade": "Década del 80"
+        },
+        "reviews": [
+            {
+                "id": "review-colonia-barrio-historico-apartment-1",
+                "authorName": "Natalia",
+                "authorLocation": "La Plata, Argentina",
+                "rating": 5,
+                "date": "2026-02-22",
+                "comment": "Precioso y con muchísimo encanto. Se siente parte del barrio."
+            },
+            {
+                "id": "review-colonia-barrio-historico-apartment-2",
+                "authorName": "Diego",
+                "authorLocation": "Rivera, Uruguay",
+                "rating": 4,
+                "date": "2026-04-29",
+                "comment": "Excelente ubicación para salir caminando a todos lados."
+            }
+        ],
+        "location": {
+            "lat": -34.4732,
+            "lng": -57.8527,
+            "description": "Dentro del Barrio Histórico, cerca del faro, la plaza mayor y varios restaurantes."
+        },
+        "cancellationPolicy": "Cancelación gratuita hasta 5 días antes de la llegada.",
+        "houseRules": [
+            "No fumar dentro",
+            "Respetar el descanso del vecindario",
+            "No fiestas"
+        ],
+        "safetyInfo": [
+            "Extintor",
+            "Botiquín",
+            "Cerraduras reforzadas"
+        ]
+    },
+    {
+        "id": "la-barra-design-house",
+        "title": "Casa de diseño cerca de la movida de La Barra",
+        "type": "Casa",
+        "city": "La Barra",
+        "neighborhood": "Montoya",
+        "country": "Uruguay",
+        "guests": 5,
+        "bedrooms": 2,
+        "beds": 3,
+        "bathrooms": 2,
+        "pricePerNight": 12800,
+        "originalPrice": 13900,
+        "currency": "UYU",
+        "rating": 4.9,
+        "reviewsCount": 2,
+        "isSuperhost": true,
+        "isGuestFavorite": true,
+        "images": [
+            {
+                "id": "la-barra-design-house-1",
+                "url": "https://picsum.photos/seed/la-barra-design-house-1/1200/900",
+                "alt": "Casa de diseño con revestimiento en madera"
+            },
+            {
+                "id": "la-barra-design-house-2",
+                "url": "https://picsum.photos/seed/la-barra-design-house-2/1200/900",
+                "alt": "Living con grandes ventanales"
+            },
+            {
+                "id": "la-barra-design-house-3",
+                "url": "https://picsum.photos/seed/la-barra-design-house-3/1200/900",
+                "alt": "Piscina pequeña con deck"
+            },
+            {
+                "id": "la-barra-design-house-4",
+                "url": "https://picsum.photos/seed/la-barra-design-house-4/1200/900",
+                "alt": "Dormitorio secundario con litera"
+            }
+        ],
+        "amenities": [
+            {
+                "id": "wifi",
+                "label": "WiFi",
+                "icon": "Wifi"
+            },
+            {
+                "id": "pool",
+                "label": "Piscina pequeña",
+                "icon": "Waves"
+            },
+            {
+                "id": "bbq",
+                "label": "Parrillero",
+                "icon": "Flame"
+            },
+            {
+                "id": "parking",
+                "label": "Estacionamiento",
+                "icon": "Car"
+            },
+            {
+                "id": "beach",
+                "label": "Cerca de la playa",
+                "icon": "Umbrella"
+            }
+        ],
+        "description": "Casa de diseño relajado en una zona vibrante de La Barra. Buena combinación entre playa, gastronomía y privacidad.",
+        "host": {
+            "id": "host-santiago-labarra",
+            "name": "Santiago",
+            "avatarUrl": "https://picsum.photos/seed/host-santiago-labarra/200/200",
+            "isSuperhost": true,
+            "yearsOfExperience": 4,
+            "reviewsCount": 51,
+            "rating": 4.91,
+            "responseRate": 98,
+            "responseTime": "Responde en menos de una hora",
+            "bio": "Trabajo en diseño y construí esta casa para estadías cortas con identidad propia.",
+            "job": "Diseñador industrial",
+            "bornDecade": "Década del 90"
+        },
+        "reviews": [
+            {
+                "id": "review-la-barra-design-house-1",
+                "authorName": "Agustina",
+                "authorLocation": "Montevideo, Uruguay",
+                "rating": 5,
+                "date": "2026-01-08",
+                "comment": "La casa es hermosa y muy funcional. Gran ubicación para disfrutar La Barra."
+            },
+            {
+                "id": "review-la-barra-design-house-2",
+                "authorName": "Pedro",
+                "authorLocation": "Córdoba, Argentina",
+                "rating": 5,
+                "date": "2026-03-31",
+                "comment": "Diseño impecable y muy buena energía en toda la casa."
+            }
+        ],
+        "location": {
+            "lat": -34.9052,
+            "lng": -54.8698,
+            "description": "En Montoya, con acceso rápido a la playa y a la zona gastronómica de La Barra."
+        },
+        "cancellationPolicy": "Cancelación gratuita hasta 7 días antes de la llegada.",
+        "houseRules": [
+            "No eventos",
+            "No fumar",
+            "Cuidar mobiliario y textiles"
+        ],
+        "safetyInfo": [
+            "Alarma",
+            "Botiquín",
+            "Iluminación exterior"
+        ]
+    },
+    {
+        "id": "punta-ballena-ocean-view",
+        "title": "Mirador con terraza en Punta Ballena",
+        "type": "Casa",
+        "city": "Punta Ballena",
+        "neighborhood": "Solanas",
+        "country": "Uruguay",
+        "guests": 6,
+        "bedrooms": 3,
+        "beds": 4,
+        "bathrooms": 2,
+        "pricePerNight": 11900,
+        "currency": "UYU",
+        "rating": 4.9,
+        "reviewsCount": 2,
+        "isSuperhost": true,
+        "isGuestFavorite": true,
+        "images": [
+            {
+                "id": "punta-ballena-ocean-view-1",
+                "url": "https://picsum.photos/seed/punta-ballena-ocean-view-1/1200/900",
+                "alt": "Terraza con vista al atardecer"
+            },
+            {
+                "id": "punta-ballena-ocean-view-2",
+                "url": "https://picsum.photos/seed/punta-ballena-ocean-view-2/1200/900",
+                "alt": "Living amplio con ventanales"
+            },
+            {
+                "id": "punta-ballena-ocean-view-3",
+                "url": "https://picsum.photos/seed/punta-ballena-ocean-view-3/1200/900",
+                "alt": "Dormitorio con vista lateral al mar"
+            },
+            {
+                "id": "punta-ballena-ocean-view-4",
+                "url": "https://picsum.photos/seed/punta-ballena-ocean-view-4/1200/900",
+                "alt": "Comedor exterior"
+            }
+        ],
+        "amenities": [
+            {
+                "id": "wifi",
+                "label": "WiFi",
+                "icon": "Wifi"
+            },
+            {
+                "id": "bbq",
+                "label": "Parrillero",
+                "icon": "Flame"
+            },
+            {
+                "id": "parking",
+                "label": "Estacionamiento",
+                "icon": "Car"
+            },
+            {
+                "id": "view",
+                "label": "Vista al océano",
+                "icon": "Mountain"
+            },
+            {
+                "id": "ac",
+                "label": "Aire acondicionado",
+                "icon": "Snowflake"
+            }
+        ],
+        "description": "Casa con terraza panorámica para ver atardeceres y disfrutar de una zona muy tranquila cerca de Solanas y Casapueblo.",
+        "host": {
+            "id": "host-pilar-ballena",
+            "name": "Pilar",
+            "avatarUrl": "https://picsum.photos/seed/host-pilar-ballena/200/200",
+            "isSuperhost": true,
+            "yearsOfExperience": 8,
+            "reviewsCount": 67,
+            "rating": 4.96,
+            "responseRate": 100,
+            "responseTime": "Responde en menos de una hora",
+            "bio": "Recibo familias y grupos pequeños que buscan vistas, tranquilidad y una casa cómoda.",
+            "job": "Productora audiovisual",
+            "bornDecade": "Década del 80"
+        },
+        "reviews": [
+            {
+                "id": "review-punta-ballena-ocean-view-1",
+                "authorName": "Verónica",
+                "authorLocation": "Minas, Uruguay",
+                "rating": 5,
+                "date": "2026-02-14",
+                "comment": "Los atardeceres desde la terraza son inolvidables. Muy recomendable."
+            },
+            {
+                "id": "review-punta-ballena-ocean-view-2",
+                "authorName": "Sebastián",
+                "authorLocation": "Buenos Aires, Argentina",
+                "rating": 5,
+                "date": "2026-04-24",
+                "comment": "Todo estuvo excelente y la casa tiene una vista privilegiada."
+            }
+        ],
+        "location": {
+            "lat": -34.8913,
+            "lng": -55.046,
+            "description": "En Punta Ballena, muy cerca de miradores y playas tranquilas de la zona oeste."
+        },
+        "cancellationPolicy": "Cancelación gratuita hasta 7 días antes de la llegada.",
+        "houseRules": [
+            "No fiestas",
+            "No fumar en interiores",
+            "Check-out antes de las 10:00"
+        ],
+        "safetyInfo": [
+            "Alarma",
+            "Detector de humo",
+            "Extintor"
+        ]
+    },
+    {
+        "id": "carmelo-vineyard-cabin",
+        "title": "Cabaña entre viñedos en Carmelo",
+        "type": "Cabaña",
+        "city": "Carmelo",
+        "neighborhood": "Zona Rural",
+        "country": "Uruguay",
+        "guests": 2,
+        "bedrooms": 1,
+        "beds": 1,
+        "bathrooms": 1,
+        "pricePerNight": 7600,
+        "currency": "UYU",
+        "rating": 4.9,
+        "reviewsCount": 2,
+        "isSuperhost": false,
+        "isGuestFavorite": true,
+        "images": [
+            {
+                "id": "carmelo-vineyard-cabin-1",
+                "url": "https://picsum.photos/seed/carmelo-vineyard-cabin-1/1200/900",
+                "alt": "Cabaña rodeada de viñedos"
+            },
+            {
+                "id": "carmelo-vineyard-cabin-2",
+                "url": "https://picsum.photos/seed/carmelo-vineyard-cabin-2/1200/900",
+                "alt": "Interior con madera clara"
+            },
+            {
+                "id": "carmelo-vineyard-cabin-3",
+                "url": "https://picsum.photos/seed/carmelo-vineyard-cabin-3/1200/900",
+                "alt": "Deck mirando el campo"
+            },
+            {
+                "id": "carmelo-vineyard-cabin-4",
+                "url": "https://picsum.photos/seed/carmelo-vineyard-cabin-4/1200/900",
+                "alt": "Baño con bañera exenta"
+            }
+        ],
+        "amenities": [
+            {
+                "id": "breakfast",
+                "label": "Desayuno de campo",
+                "icon": "Croissant"
+            },
+            {
+                "id": "bike",
+                "label": "Bicicletas",
+                "icon": "Bike"
+            },
+            {
+                "id": "fireplace",
+                "label": "Estufa a leña",
+                "icon": "Fireplace"
+            },
+            {
+                "id": "parking",
+                "label": "Estacionamiento",
+                "icon": "Car"
+            },
+            {
+                "id": "wine",
+                "label": "Degustación opcional",
+                "icon": "Wine"
+            }
+        ],
+        "description": "Cabaña íntima para desconectar entre viñedos, con ritmo lento, buen vino y una atmósfera de campo cuidada al detalle.",
+        "host": {
+            "id": "host-julian-carmelo",
+            "name": "Julián",
+            "avatarUrl": "https://picsum.photos/seed/host-julian-carmelo/200/200",
+            "isSuperhost": false,
+            "yearsOfExperience": 5,
+            "reviewsCount": 42,
+            "rating": 4.88,
+            "responseRate": 97,
+            "responseTime": "Responde en pocas horas",
+            "bio": "Gestiono un pequeño proyecto de turismo rural y disfruto recomendar bodegas de la zona.",
+            "job": "Enólogo",
+            "bornDecade": "Década del 80"
+        },
+        "reviews": [
+            {
+                "id": "review-carmelo-vineyard-cabin-1",
+                "authorName": "Noelia",
+                "authorLocation": "Mercedes, Uruguay",
+                "rating": 5,
+                "date": "2026-01-27",
+                "comment": "Un lugar precioso para descansar y desconectarse del ritmo de la ciudad."
+            },
+            {
+                "id": "review-carmelo-vineyard-cabin-2",
+                "authorName": "Ramiro",
+                "authorLocation": "Paraná, Argentina",
+                "rating": 5,
+                "date": "2026-05-13",
+                "comment": "Excelente experiencia. El entorno y la atención fueron impecables."
+            }
+        ],
+        "location": {
+            "lat": -34.0037,
+            "lng": -58.2866,
+            "description": "En una zona rural de Carmelo, cerca de bodegas y caminos arbolados."
+        },
+        "cancellationPolicy": "Cancelación gratuita hasta 5 días antes de la llegada.",
+        "houseRules": [
+            "No se permiten fiestas",
+            "No fumar",
+            "Check-in coordinado previamente"
+        ],
+        "safetyInfo": [
+            "Botiquín",
+            "Extintor",
+            "Iluminación exterior"
+        ]
+    },
+    {
+        "id": "cabo-polonio-dune-cabin",
+        "title": "Cabaña rústica entre dunas en Cabo Polonio",
+        "type": "Cabaña",
+        "city": "Cabo Polonio",
+        "neighborhood": "Centro",
+        "country": "Uruguay",
+        "guests": 4,
+        "bedrooms": 2,
+        "beds": 3,
+        "bathrooms": 1,
+        "pricePerNight": 6700,
+        "currency": "UYU",
+        "rating": 4.7,
+        "reviewsCount": 2,
+        "isSuperhost": false,
+        "isGuestFavorite": true,
+        "images": [
+            {
+                "id": "cabo-polonio-dune-cabin-1",
+                "url": "https://picsum.photos/seed/cabo-polonio-dune-cabin-1/1200/900",
+                "alt": "Cabaña de madera entre dunas"
+            },
+            {
+                "id": "cabo-polonio-dune-cabin-2",
+                "url": "https://picsum.photos/seed/cabo-polonio-dune-cabin-2/1200/900",
+                "alt": "Interior rústico con ventanas pequeñas"
+            },
+            {
+                "id": "cabo-polonio-dune-cabin-3",
+                "url": "https://picsum.photos/seed/cabo-polonio-dune-cabin-3/1200/900",
+                "alt": "Hamaca mirando el mar"
+            },
+            {
+                "id": "cabo-polonio-dune-cabin-4",
+                "url": "https://picsum.photos/seed/cabo-polonio-dune-cabin-4/1200/900",
+                "alt": "Cocina simple de la cabaña"
+            }
+        ],
+        "amenities": [
+            {
+                "id": "solar",
+                "label": "Energía solar",
+                "icon": "Sun"
+            },
+            {
+                "id": "water",
+                "label": "Tanque de agua",
+                "icon": "Droplets"
+            },
+            {
+                "id": "beach",
+                "label": "Cerca de la playa",
+                "icon": "Umbrella"
+            },
+            {
+                "id": "bbq",
+                "label": "Parrillero",
+                "icon": "Flame"
+            },
+            {
+                "id": "lanterns",
+                "label": "Faroles recargables",
+                "icon": "Lamp"
+            }
+        ],
+        "description": "Cabaña simple y auténtica para vivir la experiencia de Cabo Polonio con ritmo lento, mar y cielos estrellados.",
+        "host": {
+            "id": "host-raul-polonio",
+            "name": "Raúl",
+            "avatarUrl": "https://picsum.photos/seed/host-raul-polonio/200/200",
+            "isSuperhost": false,
+            "yearsOfExperience": 11,
+            "reviewsCount": 77,
+            "rating": 4.79,
+            "responseRate": 93,
+            "responseTime": "Responde en el día",
+            "bio": "Vivo hace años en el Cabo y explico siempre con claridad cómo es la logística del lugar antes de reservar.",
+            "job": "Pescador",
+            "bornDecade": "Década del 70"
+        },
+        "reviews": [
+            {
+                "id": "review-cabo-polonio-dune-cabin-1",
+                "authorName": "Malena",
+                "authorLocation": "Rocha, Uruguay",
+                "rating": 5,
+                "date": "2026-02-09",
+                "comment": "Una experiencia auténtica y muy especial. Ideal para bajar un cambio."
+            },
+            {
+                "id": "review-cabo-polonio-dune-cabin-2",
+                "authorName": "Pablo",
+                "authorLocation": "Buenos Aires, Argentina",
+                "rating": 4,
+                "date": "2026-03-28",
+                "comment": "Sencilla pero muy bien ubicada. Perfecta para disfrutar del Cabo."
+            }
+        ],
+        "location": {
+            "lat": -34.3977,
+            "lng": -53.7791,
+            "description": "Entre dunas y senderos de arena, cerca del faro y de varias playas del Cabo."
+        },
+        "cancellationPolicy": "Reembolso del 50% hasta 7 días antes de la llegada.",
+        "houseRules": [
+            "Uso responsable del agua y la energía",
+            "No fiestas",
+            "Check-in coordinado con transporte"
+        ],
+        "safetyInfo": [
+            "Linternas de emergencia",
+            "Botiquín",
+            "Instrucciones de seguridad visibles"
+        ]
+    },
+    {
+        "id": "punta-carretas-urban-flat",
+        "title": "Flat urbano cerca del faro de Punta Carretas",
+        "type": "Departamento",
+        "city": "Montevideo",
+        "neighborhood": "Punta Carretas",
+        "country": "Uruguay",
+        "guests": 2,
+        "bedrooms": 1,
+        "beds": 1,
+        "bathrooms": 1,
+        "pricePerNight": 6400,
+        "originalPrice": 7000,
+        "currency": "UYU",
+        "rating": 4.8,
+        "reviewsCount": 2,
+        "isSuperhost": true,
+        "isGuestFavorite": true,
+        "images": [
+            {
+                "id": "punta-carretas-urban-flat-1",
+                "url": "https://picsum.photos/seed/punta-carretas-urban-flat-1/1200/900",
+                "alt": "Flat con living compacto"
+            },
+            {
+                "id": "punta-carretas-urban-flat-2",
+                "url": "https://picsum.photos/seed/punta-carretas-urban-flat-2/1200/900",
+                "alt": "Dormitorio con ropa de cama blanca"
+            },
+            {
+                "id": "punta-carretas-urban-flat-3",
+                "url": "https://picsum.photos/seed/punta-carretas-urban-flat-3/1200/900",
+                "alt": "Cocina con barra de madera"
+            },
+            {
+                "id": "punta-carretas-urban-flat-4",
+                "url": "https://picsum.photos/seed/punta-carretas-urban-flat-4/1200/900",
+                "alt": "Vista de la calle arbolada"
+            }
+        ],
+        "amenities": [
+            {
+                "id": "wifi",
+                "label": "WiFi rápido",
+                "icon": "Wifi"
+            },
+            {
+                "id": "workspace",
+                "label": "Escritorio",
+                "icon": "Laptop"
+            },
+            {
+                "id": "ac",
+                "label": "Aire acondicionado",
+                "icon": "Snowflake"
+            },
+            {
+                "id": "elevator",
+                "label": "Ascensor",
+                "icon": "ArrowUp"
+            },
+            {
+                "id": "self-checkin",
+                "label": "Llegada autónoma",
+                "icon": "KeyRound"
+            }
+        ],
+        "description": "Flat urbano y muy funcional en una de las zonas más cómodas de Montevideo para moverse a pie entre rambla, shopping y cafés.",
+        "host": {
+            "id": "host-lara-puntacarretas",
+            "name": "Lara",
+            "avatarUrl": "https://picsum.photos/seed/host-lara-puntacarretas/200/200",
+            "isSuperhost": true,
+            "yearsOfExperience": 5,
+            "reviewsCount": 57,
+            "rating": 4.92,
+            "responseRate": 100,
+            "responseTime": "Responde en menos de una hora",
+            "bio": "Acondicioné este flat para estadías cortas cómodas, simples y bien conectadas.",
+            "job": "Administradora",
+            "bornDecade": "Década del 90"
+        },
+        "reviews": [
+            {
+                "id": "review-punta-carretas-urban-flat-1",
+                "authorName": "Sabrina",
+                "authorLocation": "San José, Uruguay",
+                "rating": 5,
+                "date": "2026-02-17",
+                "comment": "Muy prolijo, práctico y bien ubicado. Ideal para una escapada."
+            },
+            {
+                "id": "review-punta-carretas-urban-flat-2",
+                "authorName": "Leandro",
+                "authorLocation": "Rosario, Argentina",
+                "rating": 4,
+                "date": "2026-05-18",
+                "comment": "Todo funcionó perfecto y la zona es excelente para caminar."
+            }
+        ],
+        "location": {
+            "lat": -34.9242,
+            "lng": -56.1593,
+            "description": "Muy cerca del faro de Punta Carretas, la rambla y opciones de compras y gastronomía."
+        },
+        "cancellationPolicy": "Cancelación gratuita hasta 5 días antes de la llegada.",
+        "houseRules": [
+            "No fumar",
+            "No fiestas",
+            "Respetar normas del edificio"
+        ],
+        "safetyInfo": [
+            "Portero eléctrico",
+            "Detector de humo",
+            "Cerradura electrónica"
+        ]
+    },
+    {
+        "id": "manantiales-ocean-cottage",
+        "title": "Cottage costero en Manantiales",
+        "type": "Casa",
+        "city": "Manantiales",
+        "neighborhood": "Bikini",
+        "country": "Uruguay",
+        "guests": 4,
+        "bedrooms": 2,
+        "beds": 3,
+        "bathrooms": 2,
+        "pricePerNight": 13400,
+        "currency": "UYU",
+        "rating": null,
+        "reviewsCount": 2,
+        "isSuperhost": false,
+        "isGuestFavorite": false,
+        "images": [
+            {
+                "id": "manantiales-ocean-cottage-1",
+                "url": "https://picsum.photos/seed/manantiales-ocean-cottage-1/1200/900",
+                "alt": "Cottage blanco cerca del mar"
+            },
+            {
+                "id": "manantiales-ocean-cottage-2",
+                "url": "https://picsum.photos/seed/manantiales-ocean-cottage-2/1200/900",
+                "alt": "Living con vista al jardín"
+            },
+            {
+                "id": "manantiales-ocean-cottage-3",
+                "url": "https://picsum.photos/seed/manantiales-ocean-cottage-3/1200/900",
+                "alt": "Dormitorio principal con textiles naturales"
+            },
+            {
+                "id": "manantiales-ocean-cottage-4",
+                "url": "https://picsum.photos/seed/manantiales-ocean-cottage-4/1200/900",
+                "alt": "Mesa exterior en galería"
+            }
+        ],
+        "amenities": [
+            {
+                "id": "wifi",
+                "label": "WiFi",
+                "icon": "Wifi"
+            },
+            {
+                "id": "beach",
+                "label": "Cerca de la playa",
+                "icon": "Umbrella"
+            },
+            {
+                "id": "bbq",
+                "label": "Parrillero",
+                "icon": "Flame"
+            },
+            {
+                "id": "parking",
+                "label": "Estacionamiento",
+                "icon": "Car"
+            },
+            {
+                "id": "garden",
+                "label": "Jardín privado",
+                "icon": "Trees"
+            }
+        ],
+        "description": "Cottage costero de estética relajada, pensado para quienes priorizan ubicación cerca del mar y una casa cómoda para estrenar.",
+        "host": {
+            "id": "host-franca-manantiales",
+            "name": "Franca",
+            "avatarUrl": "https://picsum.photos/seed/host-franca-manantiales/200/200",
+            "isSuperhost": false,
+            "yearsOfExperience": 2,
+            "reviewsCount": 14,
+            "rating": 4.7,
+            "responseRate": 92,
+            "responseTime": "Responde en pocas horas",
+            "bio": "Esta casa se incorporó hace poco y todavía estamos sumando detalles para recibir mejor a cada huésped.",
+            "job": "Emprendedora",
+            "bornDecade": "Década del 90"
+        },
+        "reviews": [
+            {
+                "id": "review-manantiales-ocean-cottage-1",
+                "authorName": "Ingrid",
+                "authorLocation": "Melo, Uruguay",
+                "rating": 5,
+                "date": "2026-01-21",
+                "comment": "Hermosa casa, muy linda energía y excelente ubicación."
+            },
+            {
+                "id": "review-manantiales-ocean-cottage-2",
+                "authorName": "Martín",
+                "authorLocation": "Buenos Aires, Argentina",
+                "rating": 4,
+                "date": "2026-04-18",
+                "comment": "Se nota que es reciente, pero la experiencia fue muy buena y cómoda."
+            }
+        ],
+        "location": {
+            "lat": -34.8824,
+            "lng": -54.8012,
+            "description": "En Manantiales, cerca de Bikini y de la zona de restaurantes y tiendas."
+        },
+        "cancellationPolicy": "Cancelación gratuita hasta 7 días antes de la llegada.",
+        "houseRules": [
+            "No eventos",
+            "No fumar",
+            "Check-in coordinado"
+        ],
+        "safetyInfo": [
+            "Botiquín",
+            "Alarma",
+            "Iluminación perimetral"
+        ]
+    }
+]
